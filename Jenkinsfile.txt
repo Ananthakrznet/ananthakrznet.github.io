@@ -1,0 +1,29 @@
+pipeline {
+         environment {
+        riportname = "none"
+    } 
+        agent {
+    node {
+        label 'WindowsAnanthDesktop'
+    }            
+}
+         stages {
+                 stage('One') {
+                 steps {
+                 script {    
+                     $riportname = bat(script: "D:/ScriptFiles/WinExecution3.sh",returnStdout: true).trim()
+                     println $riportname     
+                 }
+                 }         
+                 }
+                  stage('save log build') {
+                  steps {
+                  script {
+                      def logContent = Jenkins.getInstance().getItemByFullName(env.JOB_NAME).getBuildByNumber(Integer.parseInt(env.BUILD_NUMBER)).logFile.text
+                      // copy the log in the job's own workspace
+                      writeFile file: "buildlog.txt", text: logContent
+}
+}
+}
+}
+}
