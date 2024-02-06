@@ -1,0 +1,3155 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 5, 2024 09:38:44 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sanity_TC2</p>
+            <p class="text-sm">
+              <span>9:38:47 AM</span> / <span>00:03:50:348</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sanity_TC2</h5>
+<span class='badge badge-success'>02.05.2024 9:38:47 AM</span>
+<span class='badge badge-danger'>02.05.2024 9:42:37 AM</span>
+<span class='badge badge-default'>00:03:50:348</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:42:37 AM</td>
+        <td>
+          Test Objective - Create Item,Supplier,Purchase Order and complete,Add device,POS Transaction - Complete,Void,Refund
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:03:829</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Launch the Url</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:50 AM</td>
+        <td>
+          Successfully launched the Url
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Create User and login</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:15:093</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>Open Registration Page</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:52 AM</td>
+        <td>
+          Click successful on Join Us
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Successfully performed type action on : Business Name With data :AutomationBusiness
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Successfully performed type action on : Email With data :rzautomation05_02_2024_09_38_55@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Successfully performed type action on : Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Successfully performed type action on : Confirm Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Click successful on Terms Of Use_Check box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Click successful on Next Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:55 AM</td>
+        <td>
+          Wait for visibility of the element Get Started Title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:56 AM</td>
+        <td>
+          Successfully performed type action on : Card Name With data :rzautomationcard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:00 AM</td>
+        <td>
+          Successfully performed type action on : Card Number With data :4242424242424242
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:00 AM</td>
+        <td>
+          Successfully performed type action on : Expiration With data :1230
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:00 AM</td>
+        <td>
+          Successfully performed type action on : CVC With data :123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:00 AM</td>
+        <td>
+          Successfully selected value  :Thailand From Dropdown :Country
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:00 AM</td>
+        <td>
+          Click successful on Register Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:06 AM</td>
+        <td>
+          Wait for visibility of the element Wait for Success message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:06 AM</td>
+        <td>
+          Text Registration Successful is displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:09:866</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>Login into the DSLA Application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:06 AM</td>
+        <td>
+          Click successful on Login Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:07 AM</td>
+        <td>
+          Click successful on Click on the Platform Email ID
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:07 AM</td>
+        <td>
+          Successfully performed type action on : Enter the Email ID With data :rzautomation05_02_2024_09_38_55@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:07 AM</td>
+        <td>
+          Click successful on Click on the Platform password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:07 AM</td>
+        <td>
+          Successfully performed type action on : Enter the password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:12 AM</td>
+        <td>
+          Click successful on Click on Login button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:15 AM</td>
+        <td>
+          Successfully logged into the dsla application
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:42:879</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Create Item</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:26 AM</td>
+        <td>
+          Click successful on Inventory Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:26 AM</td>
+        <td>
+          Inventory section is opened
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:26 AM</td>
+        <td>
+          Wait for visibility of the element Items Section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:26 AM</td>
+        <td>
+          Click successful on Items Section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:29 AM</td>
+        <td>
+          Click successful on Add button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:30 AM</td>
+        <td>
+          Click successful on Barcoded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:30 AM</td>
+        <td>
+          Click successful on Item Barcoded No
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:32 AM</td>
+        <td>
+          Successfully performed type action on : Item Name With data :AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:33 AM</td>
+        <td>
+          Click successful on Barcode Request Cancel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:34 AM</td>
+        <td>
+          Successfully performed type action on : Item Name With data :AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:35 AM</td>
+        <td>
+          Successfully performed type action on : Item Category With data :Vegetables
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:36 AM</td>
+        <td>
+          Successfully performed type action on : Item Price With data :77
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:37 AM</td>
+        <td>
+          Click successful on Sold By Each Radio Option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:37 AM</td>
+        <td>
+          Click successful on Item Upload Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:46 AM</td>
+        <td>
+          File Automation.PNG is uploaded successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:51 AM</td>
+        <td>
+          Click successful on OK Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:52 AM</td>
+        <td>
+          Wait for visibility of the element Reupload Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:52 AM</td>
+        <td>
+          Successfully scrolled to Service Level Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:52 AM</td>
+        <td>
+          Successfully performed type action on : Stock On Hand With data :10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:53 AM</td>
+        <td>
+          Click successful on Service Level Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:54 AM</td>
+        <td>
+          Click successful on Service Level Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:54 AM</td>
+        <td>
+          Successfully performed type action on : Replenishment Cycle With data :10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:54 AM</td>
+        <td>
+          Successfully performed type action on : Lead Time With data :10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:55 AM</td>
+        <td>
+          Successfully performed type action on : Safety Stock With data :100
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:55 AM</td>
+        <td>
+          Successfully scrolled to top of the screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:57 AM</td>
+        <td>
+          Click successful on Submit Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:58 AM</td>
+        <td>
+          Wait for visibility of the element Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:58 AM</td>
+        <td>
+          Click successful on Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:58 AM</td>
+        <td>
+          Successfully created a Item
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:07:841</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>Create Supplier</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:03 AM</td>
+        <td>
+          Inventory section is already open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:03 AM</td>
+        <td>
+          Click successful on Suppliers link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:08 AM</td>
+        <td>
+          Wait for visibility of the element Add Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:08 AM</td>
+        <td>
+          Click successful on Add button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:09 AM</td>
+        <td>
+          Wait for visibility of the element Supplier Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:10 AM</td>
+        <td>
+          Successfully performed type action on : Supplier Name With data :ANM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:11 AM</td>
+        <td>
+          Successfully performed type action on : Supplier Email With data :ayenyein.m@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:11 AM</td>
+        <td>
+          Click successful on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:11 AM</td>
+        <td>
+          Text Subscribe Button is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:11 AM</td>
+        <td>
+          Successfully created supplier
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:01:047</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>Create Purchase Order and Complete</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:15 AM</td>
+        <td>
+          Click successful on Stock link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:16 AM</td>
+        <td>
+          Click successful on Purchase Orders link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:16 AM</td>
+        <td>
+          Wait for visibility of the element Add Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:16 AM</td>
+        <td>
+          Click successful on Add button
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:16:967</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>Calculate the Expected Date</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:18 AM</td>
+        <td>
+          Successfully performed type action on : Expected On Date With data :2024-02-12
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:18 AM</td>
+        <td>
+          Click successful on Future Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:18 AM</td>
+        <td>
+          Successfully selected the expected date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:19 AM</td>
+        <td>
+          Click successful on Purchase Order Add Item Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:21 AM</td>
+        <td>
+          Wait for visibility of the element Purchase Order Search Item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:21 AM</td>
+        <td>
+          Click successful on Purchase Order Search Item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:21 AM</td>
+        <td>
+          Successfully performed type action on : Item Name With data :AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:24 AM</td>
+        <td>
+          Successfully performed type action on : Supplier Name With data :ANM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:26 AM</td>
+        <td>
+          Successfully cleared the field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:26 AM</td>
+        <td>
+          Successfully performed type action on : Item Quantity With data :1000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:27 AM</td>
+        <td>
+          Successfully cleared the field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:28 AM</td>
+        <td>
+          Successfully performed type action on : Unit Cost With data :10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:28 AM</td>
+        <td>
+          Click successful on Submit Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:28 AM</td>
+        <td>
+          Successfully submitted Purchase Order
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:28 AM</td>
+        <td>
+          Wait for visibility of the element Purchase Order Send
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:28 AM</td>
+        <td>
+          Click successful on Purchase Order Send
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:32 AM</td>
+        <td>
+          Wait for visibility of the element Purchase Order Action
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:32 AM</td>
+        <td>
+          Click successful on Purchase Order Action
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:33 AM</td>
+        <td>
+          Click successful on Purchase Order Receive
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:34 AM</td>
+        <td>
+          Click successful on Purchase Order ReceiveAll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:35 AM</td>
+        <td>
+          Text Purchase Order Status is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:35 AM</td>
+        <td>
+          Click successful on Stock link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:35 AM</td>
+        <td>
+          Successfully updated the quantity to the stock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:35 AM</td>
+        <td>
+          Successfully completed Purchase Order and stock verification
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>POS Setup for new user</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:10:768</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>Register the Device</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:40 AM</td>
+        <td>
+          Click successful on Platform Settings
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:41 AM</td>
+        <td>
+          Click successful on Devices Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:43 AM</td>
+        <td>
+          Click successful on Add Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:46 AM</td>
+        <td>
+          Successfully performed type action on : Device Name With data :rzautomation05_02_2024_09_38_55
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:46 AM</td>
+        <td>
+          Click successful on Store drop down
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:46 AM</td>
+        <td>
+          Click successful on Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:46 AM</td>
+        <td>
+          Click successful on Submit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:46 AM</td>
+        <td>
+          Successfully register the device
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:03:197</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>Navigate to POS</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:49 AM</td>
+        <td>
+          Successfully navigated to POS
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:04:152</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>Register the Device in POS</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:52 AM</td>
+        <td>
+          Click successful on Select device
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:52 AM</td>
+        <td>
+          Successfully performed type action on : Device name With data :rzautomation05_02_2024_09_38_55
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:52 AM</td>
+        <td>
+          Successfully selected the device name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:52 AM</td>
+        <td>
+          Click successful on Register Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:53 AM</td>
+        <td>
+          Successfully register the device
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:196</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>Add the items and pay</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:53 AM</td>
+        <td>
+          Click successful on All catergories icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:53 AM</td>
+        <td>
+          Successfully removed the discount for item : 
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:10:992</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>Remove the discount for items added in payment details of POS</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:56 AM</td>
+        <td>
+          Double click successful on No discount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:40:56 AM</td>
+        <td>
+          Successfully removed the discount for item : AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:01 AM</td>
+        <td>
+          Click successful on Click on pay button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:04 AM</td>
+        <td>
+          Click successful on Click on OK button to confirm the payment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:04 AM</td>
+        <td>
+          Text Complete Status is displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:126</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>Refund the Transaction</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:05 AM</td>
+        <td>
+          Click successful on Till tab
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:311</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="17"><span>Add the items and pay</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:10 AM</td>
+        <td>
+          Click successful on All catergories icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:10 AM</td>
+        <td>
+          Successfully removed the discount for item : 
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:23:933</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>Remove the discount for items added in payment details of POS</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:12 AM</td>
+        <td>
+          Double click successful on No discount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:12 AM</td>
+        <td>
+          Successfully removed the discount for item : AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:17 AM</td>
+        <td>
+          Click successful on Click on pay button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:20 AM</td>
+        <td>
+          Click successful on Click on OK button to confirm the payment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:20 AM</td>
+        <td>
+          Text Complete Status is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:25 AM</td>
+        <td>
+          Click successful on Actions Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:28 AM</td>
+        <td>
+          Click successful on Refund
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:28 AM</td>
+        <td>
+          Wait for visibility of the element Refund Reason
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:30 AM</td>
+        <td>
+          Successfully performed type action on : Refund Reason With data :Automation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:30 AM</td>
+        <td>
+          Click successful on Process Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:32 AM</td>
+        <td>
+          Click successful on Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:34 AM</td>
+        <td>
+          Text Refunded Status is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:34 AM</td>
+        <td>
+          Successfully Refund the transaction
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:121</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="19"><span>Void the Transaction</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:34 AM</td>
+        <td>
+          Click successful on Till tab
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:251</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="20"><span>Add the items and pay</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:39 AM</td>
+        <td>
+          Click successful on All catergories icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:39 AM</td>
+        <td>
+          Successfully removed the discount for item : 
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:28:381</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="21"><span>Remove the discount for items added in payment details of POS</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:41 AM</td>
+        <td>
+          Double click successful on No discount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:41 AM</td>
+        <td>
+          Successfully removed the discount for item : AutomationItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:47 AM</td>
+        <td>
+          Click successful on Click on pay button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:50 AM</td>
+        <td>
+          Click successful on Click on OK button to confirm the payment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:50 AM</td>
+        <td>
+          Text Complete Status is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:55 AM</td>
+        <td>
+          Click successful on Actions Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:57 AM</td>
+        <td>
+          Click successful on Void
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:57 AM</td>
+        <td>
+          Wait for visibility of the element Void Reason
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:59 AM</td>
+        <td>
+          Successfully performed type action on : Void Reason With data :Automation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:41:59 AM</td>
+        <td>
+          Click successful on Process Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:01 AM</td>
+        <td>
+          Click successful on Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:03 AM</td>
+        <td>
+          Text Voided Status is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:03 AM</td>
+        <td>
+          Successfully Void the transaction
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:06 AM</td>
+        <td>
+          Click successful on Till Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:08 AM</td>
+        <td>
+          Click successful on All Categories Icon
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:032</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>Enable the Offline Network in Dev Tools</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:08 AM</td>
+        <td>
+          Successfully Enableed the Offline Network in Dev Tools
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:05:139</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="23"><span>Add the items and pay</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:13 AM</td>
+        <td>
+          Click successful on Till Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:18 AM</td>
+        <td>
+          Successfully removed the discount for item : NO IMAGE
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:06:207</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="24"><span>Fetch the total amount of transaction in POS Payment Details</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:18 AM</td>
+        <td>
+          Successfully total amount is fetched from POS Payment Details section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:21 AM</td>
+        <td>
+          Click successful on Click on pay button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:24 AM</td>
+        <td>
+          Click successful on Click on OK button to confirm the payment
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:24 AM</td>
+        <td>
+          Text offline-mode is displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:006</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="25"><span>Disable the Offline Network in Dev Tools</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:24 AM</td>
+        <td>
+          Successfully Disableed the Offline Network in Dev Tools
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:009</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="26"><span>Navigate back to DSLA platform</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:29 AM</td>
+        <td>
+          Successfully navigated back to platform
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:07:104</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="27"><span>Logout of the application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:29 AM</td>
+        <td>
+          Click successful on User Profile Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:29 AM</td>
+        <td>
+          Successfully clicked on account icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:30 AM</td>
+        <td>
+          Successfully clicked on logout option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:36 AM</td>
+        <td>
+          Click successful on Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:36 AM</td>
+        <td>
+          Successfully clicked on confirm button to logout from application
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:802</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>Close the Browser</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:37 AM</td>
+        <td>
+          Successfully closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sanity_TC3</p>
+            <p class="text-sm">
+              <span>9:42:39 AM</span> / <span>00:01:23:971</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Sanity_TC3</h5>
+<span class='badge badge-success'>02.05.2024 9:42:39 AM</span>
+<span class='badge badge-danger'>02.05.2024 9:44:03 AM</span>
+<span class='badge badge-default'>00:01:23:971</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:03 AM</td>
+        <td>
+          Test Objective - Create employees and verify the privilages
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:02:905</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="30"><span>Launch the Url</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:41 AM</td>
+        <td>
+          Successfully launched the Url
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:14:880</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="31"><span>Open Registration Page</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:43 AM</td>
+        <td>
+          Click successful on Join Us
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Successfully performed type action on : Business Name With data :AutomationBusiness
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Successfully performed type action on : Email With data :rzautomation05_02_2024_09_42_46@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Successfully performed type action on : Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Successfully performed type action on : Confirm Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Click successful on Terms Of Use_Check box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Click successful on Next Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:46 AM</td>
+        <td>
+          Wait for visibility of the element Get Started Title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:47 AM</td>
+        <td>
+          Successfully performed type action on : Card Name With data :rzautomationcard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:50 AM</td>
+        <td>
+          Successfully performed type action on : Card Number With data :4242424242424242
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:51 AM</td>
+        <td>
+          Successfully performed type action on : Expiration With data :1230
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:51 AM</td>
+        <td>
+          Successfully performed type action on : CVC With data :123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:51 AM</td>
+        <td>
+          Successfully selected value  :Thailand From Dropdown :Country
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:51 AM</td>
+        <td>
+          Click successful on Register Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:56 AM</td>
+        <td>
+          Wait for visibility of the element Wait for Success message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:56 AM</td>
+        <td>
+          Text Registration Successful is displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="32"><span>Create User and login</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:14:318</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="33"><span>Open Registration Page</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:57 AM</td>
+        <td>
+          Click successful on Join Us
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:00 AM</td>
+        <td>
+          Successfully performed type action on : Business Name With data :AutomationBusiness
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:00 AM</td>
+        <td>
+          Successfully performed type action on : Email With data :rzautomation05_02_2024_09_43_00@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:00 AM</td>
+        <td>
+          Successfully performed type action on : Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:01 AM</td>
+        <td>
+          Successfully performed type action on : Confirm Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:01 AM</td>
+        <td>
+          Click successful on Terms Of Use_Check box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:01 AM</td>
+        <td>
+          Click successful on Next Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:01 AM</td>
+        <td>
+          Wait for visibility of the element Get Started Title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:02 AM</td>
+        <td>
+          Successfully performed type action on : Card Name With data :rzautomationcard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:05 AM</td>
+        <td>
+          Successfully performed type action on : Card Number With data :4242424242424242
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:05 AM</td>
+        <td>
+          Successfully performed type action on : Expiration With data :1230
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:05 AM</td>
+        <td>
+          Successfully performed type action on : CVC With data :123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:05 AM</td>
+        <td>
+          Successfully selected value  :Thailand From Dropdown :Country
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:05 AM</td>
+        <td>
+          Click successful on Register Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:11 AM</td>
+        <td>
+          Wait for visibility of the element Wait for Success message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:11 AM</td>
+        <td>
+          Text Registration Successful is displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:10:248</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="34"><span>Login into the DSLA Application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:11 AM</td>
+        <td>
+          Click successful on Login Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:12 AM</td>
+        <td>
+          Click successful on Click on the Platform Email ID
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:12 AM</td>
+        <td>
+          Successfully performed type action on : Enter the Email ID With data :rzautomation05_02_2024_09_43_00@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:12 AM</td>
+        <td>
+          Click successful on Click on the Platform password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:12 AM</td>
+        <td>
+          Successfully performed type action on : Enter the password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:18 AM</td>
+        <td>
+          Click successful on Click on Login button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:21 AM</td>
+        <td>
+          Successfully logged into the dsla application
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:06:710</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="35"><span>Add Employee</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:21 AM</td>
+        <td>
+          Click successful on Employees Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:21 AM</td>
+        <td>
+          Click successful on List Section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:22 AM</td>
+        <td>
+          Click successful on Add Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Successfully performed type action on : Employee User Name With data :Cashir05022024094300
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Click successful on Employee Role field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Click successful on Select Employee Role
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Successfully performed type action on : Employee Email With data :Cashier05_02_2024_09_43_00@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Successfully performed type action on : Employee Phone With data :9879879870
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Successfully performed type action on : Employee Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Successfully performed type action on : Employee Confirm Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:24 AM</td>
+        <td>
+          Click successful on Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:25 AM</td>
+        <td>
+          Click successful on Select Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:25 AM</td>
+        <td>
+          Click successful on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:28 AM</td>
+        <td>
+          Successfully added the employee discount
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:09:816</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="36"><span>Add Employee</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:28 AM</td>
+        <td>
+          Click successful on Employees Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:28 AM</td>
+        <td>
+          Click successful on List Section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:28 AM</td>
+        <td>
+          Click successful on Add Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:29 AM</td>
+        <td>
+          Successfully performed type action on : Employee User Name With data :Managr05022024094300
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:29 AM</td>
+        <td>
+          Click successful on Employee Role field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:29 AM</td>
+        <td>
+          Click successful on Select Employee Role
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:29 AM</td>
+        <td>
+          Successfully performed type action on : Employee Email With data :Manager05_02_2024_09_43_00@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:29 AM</td>
+        <td>
+          Successfully performed type action on : Employee Phone With data :7894561230
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:30 AM</td>
+        <td>
+          Successfully performed type action on : Employee Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:30 AM</td>
+        <td>
+          Successfully performed type action on : Employee Confirm Password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:30 AM</td>
+        <td>
+          Click successful on Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:30 AM</td>
+        <td>
+          Click successful on Select Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:30 AM</td>
+        <td>
+          Click successful on Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:33 AM</td>
+        <td>
+          Successfully added the employee discount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:33 AM</td>
+        <td>
+          Click successful on Employees
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:34 AM</td>
+        <td>
+          Click successful on Access
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:35 AM</td>
+        <td>
+          Click successful on Select Access
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:35 AM</td>
+        <td>
+          Click successful on Save
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:35 AM</td>
+        <td>
+          Click successful on Employees
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:35 AM</td>
+        <td>
+          Click successful on Employees
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:36 AM</td>
+        <td>
+          Click successful on Access
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:37 AM</td>
+        <td>
+          Click successful on Select Access
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:37 AM</td>
+        <td>
+          Click successful on Save
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:37 AM</td>
+        <td>
+          Click successful on Employees
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:06:949</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="37"><span>Logout of the application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:38 AM</td>
+        <td>
+          Click successful on User Profile Icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:38 AM</td>
+        <td>
+          Successfully clicked on account icon
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:39 AM</td>
+        <td>
+          Successfully clicked on logout option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:44 AM</td>
+        <td>
+          Click successful on Confirm Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:44 AM</td>
+        <td>
+          Successfully clicked on confirm button to logout from application
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="38"><span>Login into DSLA Application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:18:141</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="39"><span>Login into the DSLA Application</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:45 AM</td>
+        <td>
+          Click successful on Login Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:46 AM</td>
+        <td>
+          Click successful on Click on the Platform Email ID
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:46 AM</td>
+        <td>
+          Successfully performed type action on : Enter the Email ID With data :Manager05_02_2024_09_43_00@rznet.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:46 AM</td>
+        <td>
+          Click successful on Click on the Platform password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:46 AM</td>
+        <td>
+          Successfully performed type action on : Enter the password With data :Rzqa@123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:47 AM</td>
+        <td>
+          Click successful on Click on Login button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:50 AM</td>
+        <td>
+          Successfully logged into the dsla application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:44:02 AM</td>
+        <td>
+          Text is not displayed
+    <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,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AAAAAAAACiEABgAAAAAAACiEABgAAAAAgP/fnh3IAAAAAAzyt77HVxoBABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMBKaZJ2cSEueMAAAAASUVORK5CYII=" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:02 AM</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Online']"}
+  (Session info: chrome=116.0.5845.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf13f3976c0eace7f599ff495230493, findElement {using=xpath, value=//span[text()='Online']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\QATEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf13f3976c0eace7f599ff495230493
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dsla.commands.ActionDriver.isElementPresent(ActionDriver.java:642)
+	at com.dsla.or.PlatformPage.verifyManagerAccess(PlatformPage.java:1439)
+	at com.dsla.scripts.Sanity_TC3.Sanity_TC3(Sanity_TC3.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:44:03 AM</td>
+        <td>
+          Unable to add employee :
+    <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,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/Hk096/S5Ti37X99P7K6/+0+x679at5/bXsd29l6+Ur3O7SjdT9atHPlgNev17T/Dud1835X9aPN57GyrcYOrb5uWuy/umr7aXM+tD8fG9e78f7u12MrPVzXTf1s2Hcf102l0tT/puXtrpvKqgdJtfpe/u/fLOZH13/c2M4u/ah2ame3fqxsoJ/vn/bLV7Wz2/Xf5/Zbff7V9PY5dfz+qySVvvvRejtdv++7fv/0149V11+nf291vP66fd93X979fKtf3tj/G98//Z0Pra6/Xq6b5v2vaufy8//8T58IAAAMCwEwAABDp7IyOpzcGLCte95qYLlSaRpArjQNTFeaBpBvbK/t89aJU9t2rtpOq+WV5n40tbO+Hy2Cq/pONw6QL7+v0tjfjv1vCDpqo+Crlzfu/8aDloFNpXnV2nFcfXwatpN27W4OENqfFx0/x1r+1djE1eu1DfAqy/9rcT721I9KU4BY9znWP+jhvG7b/+XzqaEflfbLG7q9sv925+PyuqvOx6b+dzofK0m1bbDWw+dY63eb67K38zorx7nrdVNpel73rH5523a36Gdtt5XKLbn9/X8rP3r3x12+fxq3W+nzeK9e3tygbt8/q5cvvfXG8l7Pt6Wn7bZ/o02rrs+6htdff50+p1XLq03XX5d2rl7eeOxWX71tvu+blle7tbPL8krD9huPVGM7u11/zddFt+vmxvKGdvR8Pja378aL3c63hv43f049Xjcr599KO+u6GAAAGE4CYAAAhkw11RvZVIsZT1kZG65fL6mmujywWxtArt4Ye059oFptGCCuba7F82rTeHXDwHE11Wql8X0NA+i19jXNGKsPTKtN/V1eXm0eW2/Vj7rt19ZbaXel8Xmj6o1ooeE4tuhHrbvNm6i1s2E7dc+b+pHm41C/XtPn3byd1W9tPzO83eeYhuPYvp2NxzErgUma+tE8wy7t+tG0PA3bvxEsrdp/9cbyav37VyKMxuOx8qjN+VCf3dS3o+HzTovzsXa0mvvf1/mY+p3XrZf2103t+DT2buVRrZ2Nmj/H5us/adpg1/O2eXma2tl8cra+/pv3X39dVBuvo5Xly59ztan/bb7fVtrZ7vuv1fdQ/efU6vpftfxGOxqvyw7fP03nW22tlXbWnnf4Hq+2eH/bdqbFdur736Wdrfpxo++N183KddHq82jqR/P11+v51v77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AAAAoBACYAAAAAAAAIBCCIABAAAAAAAACiEABgDg/7dnBzIAAAAAg/yt7/GVRgAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADARIkZO9ffiWhbAAAAAElFTkSuQmCC" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:03 AM</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Online']"}
+  (Session info: chrome=116.0.5845.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf13f3976c0eace7f599ff495230493, findElement {using=xpath, value=//span[text()='Online']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\QATEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf13f3976c0eace7f599ff495230493
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dsla.commands.ActionDriver.isElementPresent(ActionDriver.java:642)
+	at com.dsla.or.PlatformPage.verifyManagerAccess(PlatformPage.java:1439)
+	at com.dsla.scripts.Sanity_TC3.Sanity_TC3(Sanity_TC3.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:43:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='39'>Login into the DSLA Application</a>
+<div class="">
+<span class="badge badge-default">Sanity_TC3.Login into the DSLA Application</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 5, 2024 09:38:44 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 5, 2024 09:44:03 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>36</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>251</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>2</b> events failed,
+<b data-tooltip='%'>4</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Sanity_TC2":230.348,"Sanity_TC3":83.971
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 36,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 251,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 4
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
